@@ -1,0 +1,89 @@
+
+Xvnc TigerVNC 1.10.0 - built Jan 23 2024 20:31:07
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Mon Dec  2 17:27:52 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1668]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[1668]: directory '/root/.gnupg' created
+gpg-agent[1668]: directory '/root/.gnupg/private-keys-v1.d' created
+
+(xfce4-session:1576): xfce4-session-WARNING **: 17:27:53.462: gpg-agent returned no PID in the variables
+
+(xfce4-session:1576): xfce4-session-WARNING **: 17:27:53.466: xfsm_manager_load_session: Something wrong with /root/.cache/sessions/xfce4-session-controlplane:1, Does it exist? Permissions issue?
+gpg-agent[1669]: gpg-agent (GnuPG) 2.2.19 started
+
+(xfwm4:1670): GLib-CRITICAL **: 17:27:53.663: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:1670): xfwm4-WARNING **: 17:27:56.006: Another compositing manager is running on screen 0
+
+(xfsettingsd:2048): GLib-CRITICAL **: 17:27:57.275: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:2048): GLib-GObject-CRITICAL **: 17:27:57.465: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:2048): GLib-GObject-CRITICAL **: 17:27:57.484: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+xfce4-panel-Message: 17:28:00.996: Plugin "statusnotifier-7" was not found and has been removed from the configuration
+Geolocation service not in use
+
+** (xiccd:2173): WARNING **: 17:28:01.458: EDID is empty
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+** (light-locker:2166): ERROR **: 17:28:01.950: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:2173): CRITICAL **: 17:28:03.843: device 'xrandr-Red Hat, Inc.-QEMU Monitor' does not exist
+
+** (wrapper-2.0:2218): WARNING **: 17:28:06.517: No outputs have backlight property
+
+(wrapper-2.0:2230): GLib-GIO-CRITICAL **: 17:28:06.530: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:2230): GLib-GIO-CRITICAL **: 17:28:06.530: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:2230): GLib-GObject-WARNING **: 17:28:06.530: invalid (NULL) pointer instance
+
+(wrapper-2.0:2230): GLib-GObject-CRITICAL **: 17:28:06.530: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:2230): Gtk-WARNING **: 17:28:06.530: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:2218): xfce4-power-manager-plugin-WARNING **: 17:28:06.983: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(wrapper-2.0:2230): Gtk-WARNING **: 17:28:07.156: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(nm-applet:2194): Gdk-CRITICAL **: 17:28:07.259: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:2218): Gtk-WARNING **: 17:28:07.492: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:2196): Gtk-WARNING **: 17:28:07.735: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+Gdk-Message: 17:32:35.297: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 17:32:35.297: xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+** (xiccd:2173): WARNING **: 17:32:35.313: Exiting
+xfsettingsd: Another instance took over. Leaving...
+
+(xfce4-panel:2049): xfce4-panel-CRITICAL **: 17:32:35.319: Name org.xfce.Panel lost on the message dbus, exiting.
+
+(Thunar:2136): thunar-WARNING **: 17:32:35.336: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:2136): thunar-WARNING **: 17:32:35.336: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+Gdk-Message: 17:32:35.535: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 17:32:35.537: xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :1.
+
+Gdk-Message: 17:32:35.538: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 25 requests (25 known processed) with 0 events remaining.
+Gdk-Message: 17:32:35.542: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+Mon Dec  2 17:32:35 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
